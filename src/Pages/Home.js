@@ -1,4 +1,3 @@
-import HomeSlider from "../components/homeslider";
 export default function Home(){
     return(
         <div className="homeContainer">

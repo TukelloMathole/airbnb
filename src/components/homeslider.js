@@ -1,5 +1,14 @@
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const HomeSlider =()=>{
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 100,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      };
     return(
         <div className="Home-Slider">
             <div className="bookRoom">
@@ -62,7 +71,68 @@ const HomeSlider =()=>{
             </div>
 
             <div className="contSlider">
-                <h1>Cont Slider</h1>
+            <Slider {...settings}>
+                    <div className="contBox">
+                        <div className="imageBox">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTODNnlAAwUuWYLCYoFbbaE6rdvxjJ12XAJYQZwaZDAHfE79O6g95Tc4e4-gkyEwwE_0&usqp=CAU"/>
+                        </div>
+                        <div className="imageBox">
+                            <h3>Loft in Cape Town</h3>
+                            <label>Price: R1500.00/Day</label>
+                            <p>
+                            We are proud to present the Geodome experience, nestled up against the Witzenburg mountain range about 10km 
+                            from the historic town of Tulbagh. Keeping up with the increasing demand for experiential stays in stead of 
+                            the traditional B&B, we have created this unique rental situated in our favourite part of a 270 hectare farm.
+                            </p>
+                            <input type="submit" value="book now"/>
+                        </div>
+                    </div>
+                    <div className="contBox">
+                    <div className="imageBox">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTODNnlAAwUuWYLCYoFbbaE6rdvxjJ12XAJYQZwaZDAHfE79O6g95Tc4e4-gkyEwwE_0&usqp=CAU"/>
+                        </div>
+                        <div className="imageBox">
+                            <h3>Loft in Cape Town</h3>
+                            <label>Price: R1500.00/Day</label>
+                            <p>
+                            We are proud to present the Geodome experience, nestled up against the Witzenburg mountain range about 10km 
+                            from the historic town of Tulbagh. Keeping up with the increasing demand for experiential stays in stead of 
+                            the traditional B&B, we have created this unique rental situated in our favourite part of a 270 hectare farm.
+                            </p>
+                            <input type="submit" value="book now"/>
+                        </div>
+                    </div>
+                    <div className="contBox">
+                        <div className="imageBox">
+                            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/433892814.jpg?k=f63166079a0331ff35bc82f753a5c0a57dad10a07948b3947c408cf2c214e674&o=&hp=1"/>
+                        </div>
+                        <div className="imageBox">
+                            <h3>Loft in Cape Town</h3>
+                            <label>Price: R1500.00/Day</label>
+                            <p>
+                            We are proud to present the Geodome experience, nestled up against the Witzenburg mountain range about 10km 
+                            from the historic town of Tulbagh. Keeping up with the increasing demand for experiential stays in stead of 
+                            the traditional B&B, we have created this unique rental situated in our favourite part of a 270 hectare farm.
+                            </p>
+                            <input type="submit" value="book now"/>
+                        </div>
+                    </div>
+                    <div className="contBox">
+                    <div className="imageBox">
+                            <img src="https://lh3.googleusercontent.com/yjDoBdvT5hee7GpGXk5fSi43sU0E_4_f2YeopUW99NJODjcMWAHbDWhkLO6KvjwTXvjQwlyRR0gQx2w2CnGfyohY8ETkGVzVwo-O5ti6uk8gaHecDEMA4w4yyiCAHepf29ZGXE8M"/>
+                        </div>
+                        <div className="imageBox">
+                            <h3>Loft in Cape Town</h3>
+                            <label>Price: R1500.00/Day</label>
+                            <p>
+                            We are proud to present the Geodome experience, nestled up against the Witzenburg mountain range about 10km 
+                            from the historic town of Tulbagh. Keeping up with the increasing demand for experiential stays in stead of 
+                            the traditional B&B, we have created this unique rental situated in our favourite part of a 270 hectare farm.
+                            </p>
+                            <input type="submit" value="book now"/>
+                        </div>
+                    </div>
+            </Slider>
             </div>
         </div>
     );

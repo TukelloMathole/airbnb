@@ -7,7 +7,7 @@ const site = () =>{
                 <h1>Popular amenities for Cape Town vacation rentals</h1>
             </div>
             <div className="innerCont first">
-                <div className="box"> </div>
+                <div className="box">karabo </div>
                 <div className="box"> </div>
                 <div className="box"> </div>
                 <div className="box"> </div>
@@ -16,7 +16,7 @@ const site = () =>{
                 <h1>Popular amenities for Cape Town vacation rentals</h1>
             </div>
             <div className="innerCont second">
-                <div className="box"> </div>
+                <div className="box">karabo  </div>
                 <div className="box"> </div>
                 <div className="box"> </div>
                 <div className="box"> </div>

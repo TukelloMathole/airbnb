@@ -106,5 +106,41 @@ li{
     height: 40px;
     border: none;
     margin: 20px;
-    margin: 10px;
+}
+
+
+.MainCont{
+    height: 30rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.MainCont .innerCont{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template: 'box box box box';
+}
+.MainCont .header{
+    height: 10rem;
+    background-color: yellow;
+}
+
+.MainCont .innerCont .box{
+    width: 90%;
+    height: 100%;
+    background-color: red;
+}
+
+.MainCont .second{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template: 'box box box';
+    
 }
